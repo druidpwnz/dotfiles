@@ -65,6 +65,11 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec --no-startup-id alacritty
 
+# quickstart apps
+bindsym $mod+F1 exec --no-startup-id thunar
+bindsym $mod+F2 exec --no-startup-id google-chrome-stable
+bindsym $mod+F3 exec --no-startup-id code
+
 # kill focused window
 bindsym $mod+q kill
 
