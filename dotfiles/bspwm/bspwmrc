@@ -1,0 +1,62 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+
+bspc monitor -d 1: 2: 3: 4: 5: 6: 7: 8: 9: 10:
+
+bspc config border_width          1
+bspc config window_gap            8
+
+bspc config split_ratio           0.50
+bspc config borderless_monocle    true
+bspc config gapless_monocle       false
+bspc config single_monocle        true
+bspc config pointer_follows_focus false
+bspc config focus_follows_pointer true
+
+bspc rule -a Blueberry.py state=floating
+bspc rule -a Pavucontrol state=floating
+bspc rule -a Gnome-calculator state=floating
+bspc rule -a Nm-connection-editor state=floating
+bspc rule -a Lxappearance state=floating
+bspc rule -a Kvantum Manager state=floating
+bspc rule -a Arandr state=floating
+bspc rule -a flameshot state=floating
+bspc rule -a Nitrogen state=floating
+bspc rule -a Gpick state=floating
+bspc rule -a Guitarix state=floating
+bspc rule -a TelegramDesktop desktop='^3'
+bspc rule -a Skype desktop='^6'
+bspc rule -a Steam desktop='^7'
+bspc rule -a Nicotine desktop='^9'
+bspc rule -a Transmission-gtk desktop='^9'
+bspc config external_rules_command "/home/druiduser/.config/bspwm/spotify_fix.sh"
+
+# Border
+bspc config focused_border_color        "#A4ABB9"
+bspc config normal_border_color         "#4C515D"
+bspc config active_border_color         "#4C515D"
+
+# Fix Java
+wmname LG3D
+
+# Autostart
+$HOME/.config/polybar/launch.sh &
+nitrogen --restore &
+setxkbmap "us,ru,ua" ",winkeys" "grp:alt_shift_toggle,grp_led:scroll" &
+nm-applet --indicator &
+picom --experimental-backends &
+dunst &
+flameshot &
+blueberry-tray &
+xinput set-prop  14 "Device Enabled" 0 &
+telegram-desktop &
+alacritty &
+spotify &
+kdeconnect-indicator &
+/usr/lib/kdeconnectd &
+nicotine &
+transmission-gtk &
+#steam &
+udisksctl mount -b /dev/sdb1 &
