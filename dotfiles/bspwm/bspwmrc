@@ -56,7 +56,9 @@ alacritty &
 spotify &
 kdeconnect-indicator &
 /usr/lib/kdeconnectd &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 nicotine &
 transmission-gtk &
 #steam &
 udisksctl mount -b /dev/sdb1 &
+
