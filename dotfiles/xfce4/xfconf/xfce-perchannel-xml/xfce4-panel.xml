@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=800;y=884"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="30"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="5"/>
+        <value type="int" value="4"/>
+        <value type="int" value="17"/>
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="18"/>
+        <value type="int" value="14"/>
+        <value type="int" value="7"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="22"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="disable-struts" type="bool" value="false"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-title" type="string" value="Arch Linux"/>
+      <property name="button-icon" type="string" value="archlinux-logo"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="small" type="bool" value="false"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="clipman"/>
+        <value type="string" value="wi-fi network connection “tp-link_f400” active: tp-link_f400 (79%)"/>
+        <value type="string" value="skypeforlinux"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “tp-link_f400” active: tp-link_f400 (73%)"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="wi-fi network connection “tp-link_f400” active: tp-link_f400 (76%)"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="KotatogramDesktop"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Skype1"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1106;chromium.instance1159;chromium.instance1240;chromium.instance1248;chromium.instance1256;chromium.instance1364;chromium.instance1495;chromium.instance1778;chromium.instance2055;chromium.instance2758;chromium.instance3229;chromium.instance32493;chromium.instance3568;chromium.instance42826;chromium.instance5290;chromium.instance6144;chromium.instance6974;chromium.instance757;chromium.instance7849;chromium.instance789;chromium.instance7915;chromium.instance998;firefox.instance12524;firefox.instance1511;firefox.instance20842;firefox.instance21285;firefox.instance2725;firefox.instance30658;firefox.instance41233;firefox.instance41682;firefox.instance48556;firefox.instance5420;firefox.instance5681;Gwenview;kdeconnect.mpris_035f1e66ba8e4eae8e7314fb5570aa48;kdeconnect.mpris_05b1b698b8de42a082257894d402fecb;kdeconnect.mpris_09149052961849079f834e0f87fb5f28;kdeconnect.mpris_0fab7fbe1ff04892ae6445ba91b3d169;kdeconnect.mpris_11e50b0e317d48c2afe5bb2844802edd;kdeconnect.mpris_18b49647085e42aca687065604298574;kdeconnect.mpris_19af456acfd94c2dae376faa0575886c;kdeconnect.mpris_1f5be5fa55104d91ae4581790823040f;kdeconnect.mpris_23a5c022f5054929a375cd305727dc84;kdeconnect.mpris_2482a4a367dd4d8f9a8cdbb4bf9d9b34;kdeconnect.mpris_32608faeda39435d9ecb1a7690625f89;kdeconnect.mpris_3560317fda324186b88218ce23dbcd9b;kdeconnect.mpris_37e81c8e31b7491b94d41df45b86edc3;kdeconnect.mpris_38e25270f88149feb52ea6769c7e8540;kdeconnect.mpris_3987af73f6b743599458170d9db24018;kdeconnect.mpris_3a3c516b209f425db2ea1b98c94ddb5e;kdeconnect.mpris_3d057158b10647d5bad5d6b699c44b39;kdeconnect.mpris_3e61c5df9d4e4282beee8c07a8f51bc6;kdeconnect.mpris_3f5f56474a2142e195faa14f03615d26;kdeconnect.mpris_4366465befec4b4b91926e0024dbdcfc;kdeconnect.mpris_4b4b3fdcd98e47068e2ff25b49fa851b;kdeconnect.mpris_4c689f88ece346f8a9776209a4b23e48;kdeconnect.mpris_4d56eaeab33c4e54842f0f5f59381be4;kdeconnect.mpris_4f3ffeec4e0c4dbc8ebca06fd0f9797b;kdeconnect.mpris_4f5652fe78ee448cbfd2edca572caa8e;kdeconnect.mpris_5181d07ccf3d41cdab0eb8baa0dd01df;kdeconnect.mpris_567f77a1f3e1476f9b05c58fab71ab7c;kdeconnect.mpris_57cec34b645949e49dac48a076fa8413;kdeconnect.mpris_5921079e940d40109d45235974d54240;kdeconnect.mpris_5f7e18b2db284dcf8a9aed96590d9ce2;kdeconnect.mpris_60dd8c4af9ae43fead5fdd14a123cb4b;kdeconnect.mpris_66a5af553787408aaa244dbb6bbc0b4c;kdeconnect.mpris_68b61716d53247b68f2e2850fd75711b;kdeconnect.mpris_6a05e03a802f4ab38e37944fd40fe7a1;kdeconnect.mpris_7c9dfcf51c9c4509acc178f0f4fb9e80;kdeconnect.mpris_8618d4cabd664a6d8704130a1124dbf3;kdeconnect.mpris_886586bc061e4614b4f2401dc4d99703;kdeconnect.mpris_893ce3cb89c949f1aa2068acdf0d5fa6;kdeconnect.mpris_8dcd7c13c0c643c6821bfd5292342266;kdeconnect.mpris_90d5b10fd99446e588706d4d6025162a;kdeconnect.mpris_92c18f601e544fa090e9843c6f1716ec;kdeconnect.mpris_954a70a466464ddcb639ac5571804752;kdeconnect.mpris_99364dd21e634b0981b216bc1942e362;kdeconnect.mpris_9f8065086ece4cf097dc8cb106cab0c9;kdeconnect.mpris_a282214ddade4c00b6288e30df32dd65;kdeconnect.mpris_a68b0e5610d8466391d5d75365d5724e;kdeconnect.mpris_a6f730696dd64d4789227497bad95ffb;kdeconnect.mpris_a72ba5655505469c94af407aa6811b96;kdeconnect.mpris_a7cf1c7bd6a341fe99bc29b78ba03f57;kdeconnect.mpris_ad3e9bb63f404de78e77ad6ea3b2107e;kdeconnect.mpris_ad4691fa045a4e1d90925f221757f075;kdeconnect.mpris_b45667c88e3a4ae58a4bf371137b9984;kdeconnect.mpris_b64bb19792c74d7b9b423048f727c856;kdeconnect.mpris_b8a414e508f9430db6e8d4c95cb43b06;kdeconnect.mpris_bb6e315fe0a7493f80aa9c8d25261431;kdeconnect.mpris_bc95a5f15d514cb4921189af1123c35e;kdeconnect.mpris_bdc0d98d731244cfafdf0d0540fe050f;kdeconnect.mpris_bf156644fa634e209d6cd58c3db9e9bf;kdeconnect.mpris_bfcf7c2b01f34ffc89e180818c107f9b;kdeconnect.mpris_c64d8228c5b247048665ab2208b65697;kdeconnect.mpris_c763aef94d1a4a00922d5384b621119d;kdeconnect.mpris_c89619f739e84a6daef6b058b38e2872;kdeconnect.mpris_d2a2d245d55d4829b9c3887f789a7697;kdeconnect.mpris_deff0459a05f4f4692698c76f8fbe4b3;kdeconnect.mpris_e00d0b68fff84cd383899f6b004c7028;kdeconnect.mpris_e023329eb1734030aa057a805c7ffe8e;kdeconnect.mpris_e20ea0137b004494a602472e5b7cdf75;kdeconnect.mpris_e75be9bc214c4d43bdf88b47325ae452;kdeconnect.mpris_ee4c6856341144f5a9b1f9f751e81a88;kdeconnect.mpris_f09299934f0b4591b7a8706729c48cc6;kdeconnect.mpris_f3b2f450397b46c4a8544f110172f9f7;kdeconnect.mpris_f4251c51fe754d18aad4a99d9a6f4356;kdeconnect.mpris_f6a0539289c042c9aab1a0d79d6ba37c;kdeconnect.mpris_f7ac4252e6c74e7ea67e3a69601e3e29;kdeconnect.mpris_f7c919f58b08485193b8b5a6e13eec21;kdeconnect.mpris_f7f914a329bf438fb52daaa684d43286;kdeconnect.mpris_f9201bbf1ccf41fdac40de07ee3a497c;kdeconnect.mpris_fae2b461a15f4b16a896749f8cd76ea9;kdeconnect.mpris_fbc85152c07445c99aceb6b39f803633;kdeconnect.mpris_fe1723c7144e4837b710d5d239e31576;kdeconnect.mpris_fefaaabce2c1454484654e3673d1abb5;kdeconnect.mpris_ff5fc8ca917f456b982a72a04d8650e4;rhythmbox;spotify;tdesktop;vlc"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="4"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="show-seconds" type="bool" value="false"/>
+      <property name="show-meridiem" type="bool" value="false"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Kharkiv, Ukraine"/>
+        <property name="latitude" type="string" value="49.982000"/>
+        <property name="longitude" type="string" value="36.256600"/>
+      </property>
+      <property name="msl" type="int" value="114"/>
+      <property name="timezone" type="string" value="Europe/Kyiv"/>
+      <property name="offset" type="string" value="+02:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+        <property name="font" type="string" value="JetBrains Mono 10"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
+    <property name="plugin-22" type="string" value="xkb">
+      <property name="display-type" type="uint" value="2"/>
+      <property name="display-name" type="uint" value="1"/>
+      <property name="display-scale" type="uint" value="100"/>
+      <property name="show-notifications" type="bool" value="false"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16744390131.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16741801961.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16741802313.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16742364341.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="xfce4-clipman-plugin"/>
+  </property>
+</channel>
