@@ -1,5 +1,6 @@
 import:
 - ~/.config/alacritty/alacritty-colorscheme/themes/gnome-terminal.yaml
+# Theme sources https://github.com/eendroroy/alacritty-theme
 
 font:
   normal:
